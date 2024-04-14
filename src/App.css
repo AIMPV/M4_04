@@ -1,0 +1,60 @@
+body {
+  background: #ffd90f;
+}
+.navbar-brand {
+  width: 120px;
+}
+.navbar-brand img {
+  width: 100%;
+}
+.btn.btn-primary {
+  background: #ffd90f;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary.active {
+  background: #ffd90f;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.hero-section {
+  background: url('./assets/hero-bg.jpg') no-repeat fixed 0 0 transparent;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section h1 {
+  color: #ffd90f;
+  text-shadow: -3px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -3px -2px 0 #000;
+}
+.main-container {
+  margin: -3rem 0 3rem 0;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.33);
+}
+.card {
+  transition: all .25s ease-in-out;
+}
+.card:hover {
+  transition: all .25s ease-in-out;
+  box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.33);
+}
+.episode-card-img {
+  max-height: 160px;
+}
+.episode-card-img img {
+  object-fit: cover;
+}
+.primary {
+  color: #ffd90f;
+}
+.card-title {
+  font-size: 1.1rem;
+}
+.card-text {
+  font-size: 0.8rem;
+}
