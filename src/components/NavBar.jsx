@@ -2,6 +2,7 @@ import { Container, Row, Col, Button, Navbar, Nav, NavDropdown } from 'react-boo
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlug } from '@fortawesome/free-solid-svg-icons'
+import logo from '/src/assets/logo.svg';
 
 const NavBar = ({ search, onChange }) => {
   return (
@@ -9,7 +10,7 @@ const NavBar = ({ search, onChange }) => {
       <Navbar collapseOnSelect expand="lg" bg="light" data-bs-theme="light" fixed="top" className='shadow-sm'>
           <Container>
             <Navbar.Brand href="#home">
-              <img src='./src/assets/logo.png'></img>
+              <img src={logo}></img>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse className='justify-content-end' id="responsive-navbar-nav">
