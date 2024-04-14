@@ -6,10 +6,10 @@ import { faPlug } from '@fortawesome/free-solid-svg-icons'
 const NavBar = ({ search, onChange }) => {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="light" data-bs-theme="light" fixed="top" className='p-0 shadow-sm'>
+      <Navbar collapseOnSelect expand="lg" bg="light" data-bs-theme="light" fixed="top" className='shadow-sm'>
           <Container>
             <Navbar.Brand href="#home">
-              <img src='./src/assets/logo.svg'></img>
+              <img src='./src/assets/logo.png'></img>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse className='justify-content-end' id="responsive-navbar-nav">
